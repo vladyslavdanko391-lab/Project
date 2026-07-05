@@ -25,14 +25,15 @@
 }
 
 .nav {
-  display: flex;
-  align-items: center;
+    margin-right: auto;
+    display: flex;
+    gap: 40px;
 }
 
 .nav-list {
-  margin-right: auto
-  display: flex
-  gap: 40px;
+    display: flex;
+    align-items: center;
+ 
 }
 
 .nav-link {
