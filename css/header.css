@@ -30,8 +30,9 @@
 
 .nav-list {
     display: flex;
-    align-items: center;
     gap: 40px;
+    align-items: center;
+   
 }
 
 .nav-link {
