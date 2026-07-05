@@ -10,7 +10,6 @@
 
 .header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -35,8 +34,8 @@
 }
 
 .nav-list {
-  display: flex;
-  align-items: center;
+  margin-right: auto
+  display: flex
   gap: 40px;
 }
 
