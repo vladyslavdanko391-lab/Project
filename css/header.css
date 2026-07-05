@@ -26,14 +26,12 @@
 
 .nav {
     margin-right: auto;
-    display: flex;
-    gap: 40px;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
- 
+    gap: 40px;
 }
 
 .nav-link {
