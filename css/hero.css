@@ -1,5 +1,6 @@
 .hero {
     background-color: #2e2f42;
+    text-align: center;
 }
 
 .hero-title {
@@ -17,6 +18,7 @@
     background-color: #4d5ae5;
     font-weight: 500;
     cursor: pointer;
+    text-align: left;
 }
 
 .hero-button:hover,
