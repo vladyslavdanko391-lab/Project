@@ -1,14 +1,16 @@
 .hero {
     background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
 }
 
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
-
-    text-align: center;
+    line-height: 1.07;
     color: #fff;
+
+    margin: 0 0 48px;
 }
 
 .hero-button {
@@ -17,7 +19,9 @@
     background-color: #4d5ae5;
     font-weight: 500;
     cursor: pointer;
-    text-align: left;
+
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
