@@ -3,6 +3,7 @@
 }
 
 .hero-title {
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -15,6 +16,8 @@
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .hero-button:hover,
