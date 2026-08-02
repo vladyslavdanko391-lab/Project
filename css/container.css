@@ -1,0 +1,20 @@
+/*? Mobile screen */
+.container {
+    width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+/*? Tablet Screen */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 768px; 
+  }
+}
+/*? Dekstop Screen */
+@media only screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}

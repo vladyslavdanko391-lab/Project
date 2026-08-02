@@ -1,24 +1,101 @@
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0;
+    padding: 96px 0;
+}
+
+@media only screen and (min-width: 1158px) {
+    .footer {
+        padding: 100px 0;
+    }
 }
 
 .footer .container {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     
-    max-width: 1158px;
-    margin: 0 auto;
-   
+}
+
+@media only screen and (min-width: 768px) {
+    .footer .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .footer-information {
+        width: 264px;
+    }
+
+    .footer-social {
+        width: 208px;
+    }
+
+    .footer-form {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .footer .container {
+        flex-wrap: nowrap;
+        column-gap: 0;
+    }
+
+    .footer-information {
+        width: 264px;
+        margin-right: 120px;
+    }
+
+    .footer-social {
+        width: 208px;
+    }
+
+    .footer-form {
+        width: 453px;
+        margin-left: 83px;
+    }
+
+    .footer-information,
+    .footer-social,
+    .footer-form {
+        flex-basis: auto;
+    }
+}
+
+/*?* Footer Information */
+.footer-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-information {
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .footer-information {
+        margin-right: 120px;
+    }
 }
 
 .footer-logo {
     display: block;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
     margin-bottom: 16px;
-    color: #f4f4fd;
-    text-decoration: none;
     font-size: 18px;
     font-weight: 700;
+
+    color: #f4f4fd;
+    text-decoration: none;
 }
   
 .footer-logo span {
@@ -30,23 +107,38 @@
 }
 
 .footer-text {
-    max-width: 264px;
-}
-
-.footer-text {
+    width: 288px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+
+    margin-bottom: 72px;
 }
 
-.footer-information {
-    margin-right: 120px;
+@media only screen and (min-width: 768px) {
+    .footer-text {
+        width: 264px;
+        margin-bottom: 0;
+    }
+}
+
+/*?* Footer Social */
+.footer-social {
+    margin-bottom: 72px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-social {
+        margin-bottom: 0;
+    }
 }
 
 .footer-social-text {
-    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -84,14 +176,30 @@
 }
 
 /* Fotter form */
-
 .footer-form {
-    width: 453px;
-    margin-left: 83px;
+    width: 288px;
+    margin: 0 auto;
     color: #fff;
 }
 
+@media only screen and (min-width: 768px) {
+    .footer-form {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .footer-form {
+        width: 453px;
+        margin-left: 83px;
+    }
+}
+
 .footer-form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -100,19 +208,32 @@
     margin-bottom: 16px;
 }
 
-.footer-form-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 24px;
-    color: #fff;
-
+@media only screen and (min-width: 768px) {
+    .footer-form-text {
+        align-items: flex-start; 
+    }
 }
 
+.footer-form-wrapper {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-form-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+}
 
 .footer-form-field {
-    width: 264px;
+    width: 288px;
     height: 40px;
     border: 1px solid #fff;
     border-radius: 4px;
@@ -129,6 +250,12 @@
     outline: none;
     
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-form-field {
+        width: 264px;
+    }
 }
 
 .footer-form-field:focus {

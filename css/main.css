@@ -1,4 +1,6 @@
 @import './common.css';
+@import './container.css';
+
 @import './header.css';
 @import './hero.css';
 @import './features.css';
@@ -6,3 +8,8 @@
 @import './portfolio.css';
 @import './footer.css';            
 @import './modal.css';
+@import './mobile-menu.css';
+
+.hide {
+  display: none;
+}

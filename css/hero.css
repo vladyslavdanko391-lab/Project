@@ -3,24 +3,47 @@
   background-color: #2e2f42;
 }
 .hero {
-  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
   ),
-  url("../images/hero.jpg");
+  url("../images/hero-bg-mobile.jpg");
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url("../images/hero-bg-tablet.jpg");
+  }
+}
+
 /* ===== HERO CONTAINER ===== */
 .hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 72px;
+  padding-bottom: 72px;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
 }
 
 /* ===== HERO TITLE ===== */
