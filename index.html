@@ -109,7 +109,10 @@
         <ul class="team-list">
 
             <li class="team-item">
-                <img class="team-image" src="images/team-1.jpg" width="260" height="260" alt="Mark Guerrero">
+                <img class="team-image" src="./images/team-1.jpg" width="260" height="260"
+                                        srcset="./images/team-1.jpg 1x,
+                                        ./images/team-1@2x.jpg 2x"
+                                        alt="Mark Guerrero">
 
                 <div class="team-content">
                     <h3 class="team-name">Mark Guerrero</h3>
@@ -157,7 +160,10 @@
 
 
             <li class="team-item">
-                <img class="team-image" src="images/team-2.jpg" width="260" height="260" alt="Tom Ford">
+                <img class="team-image" src="./images/team-2.jpg" width="260" height="260" 
+                                        srcset="./images/team-2.jpg 1x,
+                                        ./images/team-2@2x.jpg 2x"
+                                        alt="Tom Ford">
 
                 <div class="team-content">
                     <h3 class="team-name">Tom Ford</h3>
@@ -205,7 +211,10 @@
 
 
             <li class="team-item">
-                <img class="team-image" src="images/team-3.jpg" width="260" height="260" alt="Camila Garcia">
+                <img class="team-image" src="./images/team-3.jpg" width="260" height="260" 
+                                        srcset="./images/team-3.jpg 1x,
+                                        ./images/team-3@2x.jpg 2x"
+                                        alt="Camila Garcia">
 
                 <div class="team-content">
                     <h3 class="team-name">Camila Garcia</h3>
@@ -253,7 +262,10 @@
 
 
             <li class="team-item">
-                <img class="team-image" src="images/team-4.jpg" width="260" height="260" alt="Daniel Wilson">
+                <img class="team-image" src="./images/team-4.jpg" width="260" height="260" 
+                                        srcset="./images/team-4.jpg 1x,
+                                        ./images/team-4@2x.jpg 2x"
+                                        alt="Daniel Wilson">
 
                 <div class="team-content">
                     <h3 class="team-name">Daniel Wilson</h3>
@@ -311,8 +323,10 @@
         <ul class="portfolio-list">
             <li class="portfolio-item"> 
                 <div class="portfolio-image-wrap">                 
-            <img class="portfolio-image" src="images/portfolio-1.jpg" width="360" height="300"
-alt="Banking App">
+            <img class="portfolio-image" src="./images/portfolio-1.jpg" width="360" height="300"
+                                        srcset="./images/portfolio-1.jpg 1x,
+                                        ./images/portfolio-1@2x.jpg 2x"
+                                        alt="Banking App">
 
                     <div class="overlay">   
                         <p class="overlay-text">
@@ -329,8 +343,10 @@ alt="Banking App">
 
             <li class="portfolio-item">
                 <div class="portfolio-image-wrap">
-            <img class="portfolio-image" src="images/portfolio-2.jpg" width="360" height="300"
-alt="Cashless Payment">
+            <img class="portfolio-image" src="./images/portfolio-2.jpg" width="360" height="300"
+                                        srcset="./images/portfolio-2.jpg 1x,
+                                        ./images/portfolio-2@2x.jpg 2x"
+                                        alt="Cashless Payment">
 
                     <div class="overlay">
                         <p class="overlay-text">
@@ -347,8 +363,10 @@ alt="Cashless Payment">
 
             <li class="portfolio-item">
                 <div class="portfolio-image-wrap">
-            <img class="portfolio-image" src="images/portfolio-3.jpg" width="360" height="300"
-alt="Meditation App">
+            <img class="portfolio-image" src="./images/portfolio-3.jpg" width="360" height="300"
+                                        srcset="./images/portfolio-3.jpg 1x,
+                                        ./images/portfolio-3@2x.jpg 2x"
+                                        alt="Meditation App">
 
                     <div class="overlay">
                         <p class="overlay-text">
@@ -365,8 +383,10 @@ alt="Meditation App">
 
             <li class="portfolio-item">
                 <div class="portfolio-image-wrap">
-            <img class="portfolio-image" src="images/portfolio-4.jpg" width="360" height="300"
-alt="Taxi Service">
+            <img class="portfolio-image" src="./images/portfolio-4.jpg" width="360" height="300"
+                                            srcset="./images/portfolio-4.jpg 1x,
+                                            ./images/portfolio-4@2x.jpg 2x"
+                                            alt="Taxi Service">
 
                     <div class="overlay">
                         <p class="overlay-text">
@@ -383,8 +403,10 @@ alt="Taxi Service">
 
             <li class="portfolio-item">
                 <div class="portfolio-image-wrap">   
-            <img class="portfolio-image" src="images/portfolio-5.jpg" width="360" height="300"
-alt="Screen Illustrations">
+            <img class="portfolio-image" src="./images/portfolio-5.jpg" width="360" height="300"
+                                        srcset="./images/portfolio-5.jpg 1x,
+                                        ./images/portfolio-5@2x.jpg 2x"
+                                        alt="Screen Illustrations">
 
                     <div class="overlay">
                         <p class="overlay-text">
@@ -402,8 +424,10 @@ alt="Screen Illustrations">
 
             <li class="portfolio-item"> 
                 <div class="portfolio-image-wrap">
-            <img class="portfolio-image" src="images/portfolio-6.jpg" width="360" height="300"
-alt="Online Courses">
+            <img class="portfolio-image" src="./images/portfolio-6.jpg" width="360" height="300"
+                                        srcset="./images/portfolio-6.jpg 1x,
+                                        ./images/portfolio-6@2x.jpg 2x"
+                                        alt="Online Courses">
 
                     <div class="overlay">
                         <p class="overlay-text">
@@ -475,10 +499,11 @@ alt="Online Courses">
             </ul>
         </div>
 
-        <form class="footer-form" name="subscriptionForm">
-            <p class="footer-form-text">Subscribe</p>
+        <div class="footer-subscribe">
+            <p class="footer-subscribe-text">Subscribe</p>
 
-                <div class="footer-form-wrapper">
+                <form class="footer-form" name="subscriptionForm">
+
                     <label class="sr-only" for="footer-email">E-mail</label>
 
                     <input
@@ -494,19 +519,19 @@ alt="Online Courses">
                             <use href="./images/icons.svg#telegram"></use>
                         </svg>
                     </button>
-                </div>
-        </form>      
+                </form>              
+        </div>  
     </div>
 </footer>
 
-<div class="mobile-menu">
+<div id="mobile-menu" class="mobile-menu">
     <button class="mobile-menu-btn" type="button">
         <svg class="mobile-menu-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
         </svg>
     </button>
 
-   <ul class="mobile-menu-list">
+    <ul class="mobile-menu-list">
         <li class="mobile-menu-item">
             <a class="mobile-menu-link active" href="#">Studio</a>
         </li>
@@ -514,15 +539,15 @@ alt="Online Courses">
             <a class="mobile-menu-link" href="#">Portfolio</a>
         </li>
         <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="#">Contacts</a>
+             <a class="mobile-menu-link" href="#">Contacts</a>
         </li>
     </ul>
 
     <address class="mobile-menu-address">
         <ul class="mobile-menu-contact-list">
             <li><a href="mailto:info@devstudio.com" class="mobile-menu-contact-link">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111" class="mobile-menu-contact-link">+11 (000) 111-11-11</a></li>
-            </ul>
+            <li><a href="tel:+110001111111" class="mobile-menu-contact-link">+11 (000) 111-11-11</a></li>
+        </ul>
     </address>
 
     <ul class="menu-social-list">
